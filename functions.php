@@ -315,15 +315,14 @@ function remove_posts_menu()
 fa_custom_setup_kit('https://kit.fontawesome.com/23bfc676af.js');		
 
 */
-/**
-	 * Google Fonts
+
 	 
 function wpb_add_google_fonts() {
-	wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600', false ); 
+	wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600', false ); 
 }
  
 add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
-*/
+
 
 /**
 	 * Favicons

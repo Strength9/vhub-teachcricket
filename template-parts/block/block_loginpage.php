@@ -1,6 +1,6 @@
 <?php
 /*
-Block Name: XXXXX
+Block Name: Login Block
 Block Description:Login Block
 Post Types: post, page, custom-type
 Block SVG: block_template.svg
@@ -15,12 +15,20 @@ if( !empty( $block['data']['_is_preview'] ) ) {
 /* --------------------------------------------------------------------------- */
 include('______partials_global.php');
 
+$myShortcode = '[wpforms id="57"]';
+$signup = '[wpforms id="50"]';
 /* --------------------------------------------------------------------------- */
 echo '<section '.$anchor.' class="'.$blockclass .'">
 	<div class="wcp-columns">
-	 	<div class="wcp-column"></div>
 	 	<div class="wcp-column">
-		 	
+		 	<div class="formholder">
+			  '.$myShortcode.'
+		  	</div>
+		</div>
+	 	<div class="wcp-column">
+			  <div class="formholder">
+			   '.$signup.'
+			   </div>
 		 </div>
 	</div>
 </section>';

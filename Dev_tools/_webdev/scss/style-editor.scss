@@ -9,10 +9,6 @@ body.logged-in .wrap.woocomerce .mainform {margin-top: 145px;}
 .wp-block { padding:0 50px; max-width:none;  }
  
 @import '_global';
-
-    @import '_design_styles/fonts';  
-    @import 'fontawesome/_fontawesome';
-    @import 'fontawesome/_brands'; 
     @import '_design_styles/base';     
     @import '_design_styles/animated';     
     @import '_page_structure/header';      
